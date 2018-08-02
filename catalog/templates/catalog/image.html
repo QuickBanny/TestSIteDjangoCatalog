@@ -1,0 +1,10 @@
+{% extends "catalog/header.html" %}
+
+{% block content %}
+
+<div class="col-lg2" style="text-align: -webkit-center;">
+    	<a href="/catalog/{{img.id}}"><img src="{{object.img.url}}" class="img-thumbnail" style="width: 260px; height: 180px;" alt="Image"></a>
+    	<h4>Name: {{object.name}}</h2>
+    	<h4>Desc: {{object.desc}}</h2>
+    	<h6>Date: {{object.date}}</h2>
+{% endblock %}

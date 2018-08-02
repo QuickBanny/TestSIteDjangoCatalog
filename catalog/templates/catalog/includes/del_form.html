@@ -1,0 +1,7 @@
+<div style="text-align: -webkit-center;">
+	<form method="post">{% csrf_token %}
+    <p>Are you sure you want to delete "{{ object.name }}"?</p>
+    <!-- <input type="submit" value="Confirm" /> -->
+    <button type="submit" value="Confirm" class="btn btn-success"> Confirm </button>
+</form>	
+</div>
